@@ -9,7 +9,8 @@ public class LaunchBrowser {
 	public static WebDriver ChromeBrowser() {
 		ChromeOptions option = new ChromeOptions();
 		
-		option.addArguments("--disable-notifications");//By using this no need to setProperty method
+		option.addArguments("--disable-notifications");//
+		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\chait\\OneDrive\\Documents\\software\\chromedriver.exe");
 		
 		
